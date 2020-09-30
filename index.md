@@ -38,32 +38,34 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 
 
-P
-    5 points – Presentation, aesthetics, language...
-        Includes: Web design, typography, spelling, grammar, punctuation...
-    5 points – Video.
-    5 points – Quality of graphics, video, text.
-        Includes: Clarity, appropriateness, and proportionality of text and visual content
-    10 points – Having done your homework.
-        Research, discover, learn from, and build on with previous work.
-            We cannot expect you to know everything that's been done before, but if there is any obvious prior art, you should acknowledge it and build on it.
-        Is the Approach properly implemented?
-        As appropriate:
-            Conduct proper desk research. Be aware of prior art.
-            Study, reference, and follow resources about research methods. Conduct proper empirical research.
-            Engage properly with resources about relevant psychological, cultural, business, technical, social, artistic topics.
-            Formulate proper research questions and answer them properly – including conclusions, confidence in conclusions, discussions of limitations/confounds, etc.
-    15 points – Tactical excellence of the artifact itself.
-        Does it look good?
-        Is it original? (Remember that the challenge is to create a new, innovative designs.) Or does it merely recycle standard UI components?
-    10 points – Strategic success.
-        Does the design address and "solve" the design challenge it set out to conquer?
-        Is the design challenge properly refined and articulated?
-    10 points – "Wow factor"
-        Rough guide to levels of "wow factor" (think 2 points each):
-            Been there, seen that.
-            Well thought out.
-            Excellent, you can develop this into a thesis/paper/business/exhibition.
-            Awesome, this should be a thesis/paper/business/exhibition in its present form.
-            🤯
+# Grading
+    - 5 points – Presentation, aesthetics, language...
+        - Includes: Web design, typography, spelling, grammar, punctuation...
+        
+    - 5 points – Video.
+    
+    - 5 points – Quality of graphics, video, text.
+      -  Includes: Clarity, appropriateness, and proportionality of text and visual content
+    -10 points – Having done your homework.
+        -Research, discover, learn from, and build on with previous work.
+            -We cannot expect you to know everything that's been done before, but if there is any obvious prior art, you should acknowledge it and build on it.
+        -Is the Approach properly implemented?
+        -As appropriate:
+        -    Conduct proper desk research. Be aware of prior art.
+            -Study, reference, and follow resources about research methods. Conduct proper empirical research.
+            -Engage properly with resources about relevant psychological, cultural, business, technical, social, artistic topics.
+            -Formulate proper research questions and answer them properly – including conclusions, confidence in conclusions, discussions of limitations/confounds, etc.
+   -15 points – Tactical excellence of the artifact itself.
+       - Does it look good?
+       - Is it original? (Remember that the challenge is to create a new, innovative designs.) Or does it merely recycle standard UI components?
+   - 10 points – Strategic success.
+        - Does the design address and "solve" the design challenge it set out to conquer?
+        - Is the design challenge properly refined and articulated?
+    - 10 points – "Wow factor"
+        - Rough guide to levels of "wow factor" (think 2 points each):
+            - Been there, seen that.
+            - Well thought out.
+            - Excellent, you can develop this into a thesis/paper/business/exhibition.
+            - Awesome, this should be a thesis/paper/business/exhibition in its present form.
+            - 🤯
 
