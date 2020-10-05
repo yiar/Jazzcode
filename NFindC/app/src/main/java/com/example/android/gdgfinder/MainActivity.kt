@@ -16,8 +16,12 @@
 
 package com.example.android.gdgfinder
 
+import android.R
+import android.content.Context
+import android.os.Build
 import android.os.Bundle
-import android.transition.TransitionManager
+import android.os.VibrationEffect
+import android.os.Vibrator
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
@@ -25,10 +29,9 @@ import androidx.databinding.DataBindingUtil
 import androidx.navigation.NavDestination
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI.navigateUp
-import androidx.navigation.ui.NavigationUI.setupWithNavController
 import androidx.navigation.ui.setupActionBarWithNavController
-import androidx.navigation.ui.setupWithNavController
 import com.example.android.gdgfinder.databinding.ActivityMainBinding
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -41,6 +44,12 @@ class MainActivity : AppCompatActivity() {
         setupNavigation()
 
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+
+        // Button click listener
+        button.setOnClickListener{
+            // Vibrate the phone programmatically
+            vibrate()
+        }
     }
 
     /**
@@ -48,7 +57,10 @@ class MainActivity : AppCompatActivity() {
      *
      * Delegate this to Navigation.
      */
-    override fun onSupportNavigateUp() = navigateUp(findNavController(R.id.nav_host_fragment), binding.drawerLayout)
+    override fun onSupportNavigateUp() = navigateUp(
+        findNavController(R.id.nav_host_fragment),
+        binding.drawerLayout
+    )
 
     /**
      * Setup Navigation for this Activity
@@ -80,4 +92,61 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
+
 }
+
+
+// https://android--code.blogspot.com/2018/05/android-kotlin-vibrate-phone.html
+
+/*
+    *** documentation source developer.android.com ***
+
+    VibrationEffect
+        A VibrationEffect describes a haptic effect to be performed by a Vibrator. These effects
+        may be any number of things, from single shot vibrations to complex waveforms.
+
+
+        VibrationEffect createOneShot (long milliseconds, int amplitude)
+            Create a one shot vibration. One shot vibrations will vibrate constantly
+            for the specified period of time at the specified amplitude, and then stop.
+
+        Parameters
+            milliseconds long : The number of milliseconds to vibrate. This must be a positive number.
+            amplitude int : The strength of the vibration. This must be a value between 1 and 255, or DEFAULT_AMPLITUDE.
+
+        Returns
+            VibrationEffect The desired effect.
+
+*/
+
+// Extension method to vibrate a phone programmatically
+fun Context.vibrate(milliseconds:Long = 500){
+    val vibrator = this.getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
+
+    // Check whether device/hardware has a vibrator
+    val canVibrate:Boolean = vibrator.hasVibrator()
+
+    if(canVibrate){
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O){
+            // void vibrate (VibrationEffect vibe)
+            vibrator.vibrate(
+                VibrationEffect.createOneShot(
+                    milliseconds,
+                    // The default vibration strength of the device.
+                    VibrationEffect.DEFAULT_AMPLITUDE
+                )
+            )
+        }else{
+            // This method was deprecated in API level 26
+            vibrator.vibrate(milliseconds)
+        }
+    }
+}
+
+
+// Extension property to check whether device has Vibrator
+val Context.hasVibrator:Boolean
+    get() {
+        val vibrator = this.getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
+        return vibrator.hasVibrator()
+    }

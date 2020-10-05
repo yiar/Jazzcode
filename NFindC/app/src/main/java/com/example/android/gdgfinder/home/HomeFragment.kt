@@ -60,6 +60,9 @@ class HomeFragment : Fragment() {
 
     //// Vibration
 
+    // https://developer.android.com/reference/kotlin/android/os/Vibrator
+    // https://www.tutorialspoint.com/how-to-make-an-android-device-vibrate-programmatically
+
     // Activated or not? E.g. Button to activate vibration etc, e.g. in settings or ask each time
 
     // Kind of vibration style?
