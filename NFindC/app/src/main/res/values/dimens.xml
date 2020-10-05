@@ -17,4 +17,5 @@
 <resources>
 
     <dimen name="spacing_normal">16dp</dimen>
+    <dimen name="presetButton_Width">75dp</dimen>
 </resources>

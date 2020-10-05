@@ -55,4 +55,41 @@ class HomeFragment : Fragment() {
 
         return binding.root
     }
+
+    // Stuff to add for Prototype:
+
+    //// Vibration
+
+    // Activated or not? E.g. Button to activate vibration etc, e.g. in settings or ask each time
+
+    // Kind of vibration style?
+    // Intensity
+    // Frequency
+        // Patterns
+
+
+
+    // Popover for question about proximity vibration
+
+    // Press and hold to see money on account
+
+
+    //// Authentication Presets
+
+    // Choose card from presets
+        // change layout of presets depending on how many you have
+    // Create presets?
+    // Search presets?
+
+
+    //// ID
+    // Face ID. Exists on android?
+    // Bank id?
+    // Friend Id? Just as a concept
+
+
+    // Notification when at store
+
+    //
+
 }
