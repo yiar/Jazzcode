@@ -9,6 +9,10 @@
 - Conclusions + confidence, discussion
 
 
+![alt text](https://github.com/Pianocode/Website_assets/screen1.png?raw=true)
+screen1.png
+
+
 # Grading
 - 5 points – Presentation, aesthetics, language...
     - Includes: Web design, typography, spelling, grammar, punctuation...
