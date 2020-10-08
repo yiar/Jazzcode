@@ -12,7 +12,7 @@
 
 ![alt text](https://www.dropbox.com/s/kcnzobxouagpiw7/Screen%20Shot%202020-10-08%20at%2015.10.25.png?dl=0)
 
-![alt text](https://github.com/yiar/Pianocode/blob/master/screen1?raw=true)
+![alt text](https://github.com/yiar/Pianocode/blob/master/screen1.png?raw=true)
 
 # Grading
 - 5 points – Presentation, aesthetics, language...
