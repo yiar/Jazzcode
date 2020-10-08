@@ -9,8 +9,8 @@
 - Conclusions + confidence, discussion
 
 
-![Link](https://github.com/Pianocode/Website_assets/screen1.png?raw=true)
 
+![alt text](https://www.dropbox.com/s/kcnzobxouagpiw7/Screen%20Shot%202020-10-08%20at%2015.10.25.png?dl=0)
 
 # Grading
 - 5 points – Presentation, aesthetics, language...
