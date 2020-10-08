@@ -9,8 +9,7 @@
 - Conclusions + confidence, discussion
 
 
-![alt text](https://github.com/Pianocode/Website_assets/screen1.png?raw=true)
-screen1.png
+![Link](https://github.com/Pianocode/Website_assets/screen1.png?raw=true)
 
 
 # Grading
