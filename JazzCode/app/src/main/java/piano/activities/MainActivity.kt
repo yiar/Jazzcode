@@ -1,12 +1,8 @@
-package com.example.nfinderc
+package piano.activities
 
-import android.content.Context
-import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.VibrationEffect
-import android.os.Vibrator
-import android.widget.Button
+import com.example.nfinderc.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
