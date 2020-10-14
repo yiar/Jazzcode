@@ -2,6 +2,7 @@ package piano.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ImageView
 import com.example.nfinderc.R
 
 class MainActivity : AppCompatActivity() {
