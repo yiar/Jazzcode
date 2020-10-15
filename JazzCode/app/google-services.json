@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "339273505996",
+    "firebase_url": "https://jazzcodetrue.firebaseio.com",
+    "project_id": "jazzcodetrue",
+    "storage_bucket": "jazzcodetrue.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339273505996:android:c5deab81994eeffd75b669",
+        "android_client_info": {
+          "package_name": "com.example.nfinderc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339273505996-c5jv6mh39il2mjr88eksdcg1is7e52lc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrzoJCLIQ5XORJiheFRl-jzMwmH5TWAyM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339273505996-c5jv6mh39il2mjr88eksdcg1is7e52lc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
