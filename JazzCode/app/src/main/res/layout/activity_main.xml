@@ -297,21 +297,6 @@
                     app:layout_constraintVertical_bias="0.791" />
 
                 <Button
-                    android:id="@+id/buttonNoteB1"
-                    android:layout_width="31dp"
-                    android:layout_height="160dp"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginStart="3dp"
-                    android:layout_toEndOf="@+id/buttonNoteA1"
-                    android:background="@android:color/background_light"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.308"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.899" />
-
-                <Button
                     android:id="@+id/buttonNoteD1"
                     android:layout_width="31dp"
                     android:layout_height="160dp"
@@ -356,21 +341,6 @@
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.899" />
 
-                <Button
-                    android:id="@+id/buttonNoteA1"
-                    android:layout_width="31dp"
-                    android:layout_height="160dp"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginStart="3dp"
-                    android:layout_toEndOf="@+id/buttonNoteG1"
-                    android:background="@android:color/background_light"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.264"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.899" />
-
             </RelativeLayout>
 
             <RelativeLayout
@@ -385,21 +355,6 @@
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
                     android:layout_marginStart="23dp"
-                    android:background="@android:color/black"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.137"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.463" />
-
-                <Button
-                    android:id="@+id/buttonNoteGs1"
-                    android:layout_width="19dp"
-                    android:layout_height="100dp"
-                    android:layout_alignTop="@+id/buttonNoteCs1"
-                    android:layout_marginStart="15dp"
-                    android:layout_toEndOf="@+id/buttonNoteFs1"
                     android:background="@android:color/black"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -430,21 +385,6 @@
                     android:layout_alignTop="@+id/buttonNoteGs1"
                     android:layout_marginStart="49dp"
                     android:layout_toEndOf="@+id/buttonNoteDs1"
-                    android:background="@android:color/black"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.137"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.463" />
-
-                <Button
-                    android:id="@+id/buttonNoteAs1"
-                    android:layout_width="19dp"
-                    android:layout_height="100dp"
-                    android:layout_alignTop="@+id/buttonNoteCs1"
-                    android:layout_marginStart="15dp"
-                    android:layout_toEndOf="@+id/buttonNoteGs1"
                     android:background="@android:color/black"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
