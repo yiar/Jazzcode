@@ -1,4 +1,7 @@
-# Pianocode
+# Jazzcode - A passcode tailored for Musicians
+
 Challenge to innovate a user authentication interaction
 
-Website: ....
+Research for the Real World
+
+Website: https://kazoo-oleander-d6cc.squarespace.com/config/
