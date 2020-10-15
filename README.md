@@ -1,4 +1,4 @@
-# Jazzcode - A passcode tailored for Musicians
+# Jazzcode - Passcode for Musicians
 
 Challenge to innovate a user authentication interaction
 
