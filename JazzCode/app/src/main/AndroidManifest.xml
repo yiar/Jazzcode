@@ -19,7 +19,8 @@
         </activity>
 
         <activity android:name="piano.activities.LogInActivity">
-
+        </activity>
+        <activity android:name="piano.activities.SetNewPwActivity">
         </activity>
 
     </application>
