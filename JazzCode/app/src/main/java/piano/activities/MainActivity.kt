@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // ha en logik, om inte inloggad, visa login activity
+        // hur ska man koppla knapparna till ett värde?
 
         val logBtn = findViewById<Button>(R.id.loggain)
         logBtn.setOnClickListener {
