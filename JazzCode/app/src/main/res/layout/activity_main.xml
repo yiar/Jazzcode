@@ -389,7 +389,7 @@
                     android:id="@+id/buttonNoteFs1"
                     android:layout_width="19dp"
                     android:layout_height="100dp"
-                    android:layout_alignTop="@+id/buttonNoteGs1"
+                    android:layout_alignTop="@+id/buttonNoteG1"
                     android:layout_marginStart="49dp"
                     android:layout_toEndOf="@+id/buttonNoteDs1"
                     android:background="@android:color/black"

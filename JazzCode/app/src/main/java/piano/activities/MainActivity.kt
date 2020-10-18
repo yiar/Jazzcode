@@ -17,9 +17,10 @@ class MainActivity : AppCompatActivity() {
         val logBtn = findViewById<Button>(R.id.loggain)
         logBtn.setOnClickListener {
             // Handler code here.
-            val intent = Intent(this, logInActivity::class.java)
+            val intent = Intent(this, LogInActivity::class.java)
             startActivity(intent);
         }
+
         }
 
 }

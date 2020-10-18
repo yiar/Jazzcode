@@ -18,9 +18,10 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="piano.activities.logInActivity">
+        <activity android:name="piano.activities.LogInActivity">
 
         </activity>
+
     </application>
 
 </manifest>
