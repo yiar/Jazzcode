@@ -20,3 +20,26 @@ class LogInActivity : AppCompatActivity() {
         }
     }
 }
+
+
+
+// Piano Keys
+// Confirm password button (under piano)
+// Clear input (to right)
+// Visually show how many keys you've pressed compared to full length of password/melody (maybe)
+/* <View
+android:id="@+id/group_55"
+android:layout_width="116dp"
+android:layout_height="46dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="122dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="207dp"
+android:background="#00000000"
+/>
+ */
+
+
+
+
+// Show which key is the startNote. Color the note, or just write enum as text above piano.

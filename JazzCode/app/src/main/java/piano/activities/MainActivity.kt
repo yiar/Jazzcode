@@ -9,7 +9,7 @@ import com.example.nfinderc.R
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main_original)
+        setContentView(R.layout.activity_main)
 
         // ha en logik, om inte inloggad, visa login activity
         // hur ska man koppla knapparna till ett värde?
