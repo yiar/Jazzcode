@@ -26,30 +26,159 @@
             app:layout_constraintVertical_bias="0.92"
             tools:ignore="ContentDescription" />
 
-    <ImageView
-        android:id="@+id/imageViewKeysBack"
-        android:layout_width="515dp"
-        android:layout_height="170dp"
-        android:background="@android:color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="ContentDescription" />
+        <ImageView
+            android:id="@+id/imageViewKeysBack"
+            android:layout_width="515dp"
+            android:layout_height="180dp"
+            android:background="@android:color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
 
     <FrameLayout
         android:id="@+id/framePiano"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:scaleX="1.75"
-        android:scaleY="1"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-        >
+        <RelativeLayout
+            android:id="@+id/oct2black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
+            <Button
+                android:id="@+id/buttonNoteCs1"
+                android:layout_width="19dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="23dp"
+                android:background="@android:color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.137"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.463" />
+
+            <Button
+                android:id="@+id/buttonNoteDs1"
+                android:layout_width="19dp"
+                android:layout_height="100dp"
+                android:layout_alignTop="@+id/buttonNoteCs1"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@+id/buttonNoteCs1"
+                android:background="@android:color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.137"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.463" />
+
+            <Button
+                android:id="@+id/buttonNoteFs1"
+                android:layout_width="19dp"
+                android:layout_height="100dp"
+                android:layout_alignTop="@+id/buttonNoteG1"
+                android:layout_marginStart="49dp"
+                android:layout_toEndOf="@+id/buttonNoteDs1"
+                android:background="@android:color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.137"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.463" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/oct2white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="281dp"
+            tools:layout_editor_absoluteY="277dp">
+
+            <Button
+                android:id="@+id/buttonNoteC1"
+                android:layout_width="31dp"
+                android:layout_height="160dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@android:color/background_light"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.107"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.754" />
+
+            <Button
+                android:id="@+id/buttonNoteE1"
+                android:layout_width="31dp"
+                android:layout_height="160dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="3dp"
+                android:layout_toEndOf="@+id/buttonNoteD1"
+                android:background="@android:color/background_light"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.238"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.791" />
+
+            <Button
+                android:id="@+id/buttonNoteD1"
+                android:layout_width="31dp"
+                android:layout_height="160dp"
+                android:layout_alignTop="@+id/buttonNoteC1"
+                android:layout_marginStart="3dp"
+                android:layout_toEndOf="@+id/buttonNoteC1"
+                android:background="@android:color/background_light"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.165"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.754" />
+
+            <Button
+                android:id="@+id/buttonNoteF1"
+                android:layout_width="31dp"
+                android:layout_height="160dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="3dp"
+                android:layout_toEndOf="@+id/buttonNoteE1"
+                android:background="@android:color/background_light"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.176"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.899" />
+
+            <Button
+                android:id="@+id/buttonNoteG1"
+                android:layout_width="31dp"
+                android:layout_height="160dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="3dp"
+                android:layout_toEndOf="@+id/buttonNoteF1"
+                android:background="@android:color/background_light"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.22"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.899" />
+
+        </RelativeLayout>
 
         <RelativeLayout
             android:id="@+id/oct1white"
@@ -172,7 +301,7 @@
             <Button
                 android:id="@+id/buttonNoteCs2"
                 android:layout_width="19dp"
-                android:layout_height="90dp"
+                android:layout_height="100dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_marginStart="23dp"
@@ -187,7 +316,7 @@
             <Button
                 android:id="@+id/buttonNoteGs2"
                 android:layout_width="19dp"
-                android:layout_height="90dp"
+                android:layout_height="100dp"
                 android:layout_alignTop="@+id/buttonNoteCs2"
                 android:layout_marginStart="15dp"
                 android:layout_toEndOf="@+id/buttonNoteFs2"
@@ -202,7 +331,7 @@
             <Button
                 android:id="@+id/buttonNoteDs2"
                 android:layout_width="19dp"
-                android:layout_height="90dp"
+                android:layout_height="100dp"
                 android:layout_alignTop="@+id/buttonNoteCs2"
                 android:layout_marginStart="15dp"
                 android:layout_toEndOf="@+id/buttonNoteCs2"
@@ -217,7 +346,7 @@
             <Button
                 android:id="@+id/buttonNoteFs2"
                 android:layout_width="19dp"
-                android:layout_height="90dp"
+                android:layout_height="100dp"
                 android:layout_alignTop="@+id/buttonNoteGs2"
                 android:layout_marginStart="49dp"
                 android:layout_toEndOf="@+id/buttonNoteDs2"
@@ -232,7 +361,7 @@
             <Button
                 android:id="@+id/buttonNoteAs2"
                 android:layout_width="19dp"
-                android:layout_height="90dp"
+                android:layout_height="100dp"
                 android:layout_alignTop="@+id/buttonNoteCs2"
                 android:layout_marginStart="15dp"
                 android:layout_toEndOf="@+id/buttonNoteGs2"
