@@ -40,11 +40,11 @@ class SetNewPwActivity : AppCompatActivity() {
 
 // maxLength = 10 (?)
 
-// startNote = [D];
+// startNote = D;
 
 // function addNoteToPassWordAttempt(note userInputNote) {
         // add userInputNote to back of list currentPasscodeAttempt
-        // if
+        // if not already authenticated e.g., or perhaps a pause if you insert incorrect password?
 //}
 
 // function undo() {
@@ -89,12 +89,17 @@ class SetNewPwActivity : AppCompatActivity() {
     // return transposePasscode(distanceBetweenSavedStartNoteAndRandomizedStartNote);
 //}
 
+
 // Helper function to getPasscodeFromStartNote()
 // function distanceBetweenNotes(note startNote, note firstNoteInUserSavedPassword) {
     // not sure what the best algorithm is, can change if you know better way.
 
+    // Mappa dem istället kanske!
+
     // Sort [C, C#, D, D#, E, F, F#, G, G#, A, A#, B] so that firstNoteInUserSavedPassword (D in example) is at index 0
         // Output: [ D, D#, E, F, F#, G, G#, A, A#, B, C, C#]
+
+    // Modulo
 
     // count as you go through list until you find startNote
     // if set up correctly this should be the number of steps between them (e.g. 2)
