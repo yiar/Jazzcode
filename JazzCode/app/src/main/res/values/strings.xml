@@ -3,4 +3,6 @@
     <string name="forgot_password">Forgot password</string>
     <string name="enter_username">Enter username</string>
     <string name="jazzcode">Jazzcode</string>
+    <string name="confirm">Confirm</string>
+    <string name="reset">RESET</string>
 </resources>
