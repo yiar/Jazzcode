@@ -1,6 +1,7 @@
 package piano.activities
 
 import android.os.Bundle
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.example.nfinderc.R
 
@@ -9,8 +10,109 @@ class SetNewPwActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_resetpw)
+
+        // resetInputID
+        val resetBtn = findViewById<Button>(R.id.resetInputID)
+        resetBtn.setOnClickListener()
+        {
+            // handler code
+            // resetta user input
+        }
+        // btn 1 buttonNoteC2s
+        val C2sBtn = findViewById<Button>(R.id.buttonNoteC2s)
+        C2sBtn.setOnClickListener()
+        {
+            // Handler code here.
+            //do stuff
+            // ge knappen ett value,
+            // länka denna och alla knappar till listan som är serilazierad
+        }
+        val D2sBtn = findViewById<Button>(R.id.buttonNoteD2s)
+        D2sBtn.setOnClickListener()
+        {
+            // Handler code here.
+            //do stuff
+            // ge knappen ett value,
+        }
+        val E2sBtn = findViewById<Button>(R.id.buttonNoteE2s)
+        E2sBtn.setOnClickListener()
+        {
+            // Handler code here.
+            //do stuff
+            // ge knappen ett value,
+        }
+        val F2sBtn = findViewById<Button>(R.id.buttonNoteF2s)
+        F2sBtn.setOnClickListener()
+        {
+            // Handler code here.
+            //do stuff
+            // ge knappen ett value,
+        }
+        val G2sBtn = findViewById<Button>(R.id.buttonNoteG2s)
+        G2sBtn.setOnClickListener()
+        {
+            // Handler code here.
+            //do stuff
+            // ge knappen ett value,
+        }
+        val A2sBtn = findViewById<Button>(R.id.buttonNoteA2s)
+        A2sBtn.setOnClickListener()
+        {
+            // Handler code here.
+            //do stuff
+            // ge knappen ett value,
+        }
+        val B2sBtn = findViewById<Button>(R.id.buttonNoteB2s)
+        B2sBtn.setOnClickListener()
+        {
+            // Handler code here.
+            //do stuff
+            // ge knappen ett value,
+        }
+        val Cs2sBtn = findViewById<Button>(R.id.buttonNoteCs2s)
+        Cs2sBtn.setOnClickListener()
+        {
+            // Handler code here.
+            //do stuff
+            // ge knappen ett value,
+        }
+        val Gs2sBtn = findViewById<Button>(R.id.buttonNoteGs2s)
+        Gs2sBtn.setOnClickListener()
+        {
+            // Handler code here.
+            //do stuff
+            // ge knappen ett value,
+        }
+        val Ds2sBtn = findViewById<Button>(R.id.buttonNoteDs2s)
+        Ds2sBtn.setOnClickListener()
+        {
+            // Handler code here.
+            //do stuff
+            // ge knappen ett value,
+        }
+        val Fs2sBtn = findViewById<Button>(R.id.buttonNoteFs2s)
+        Fs2sBtn.setOnClickListener()
+        {
+            // Handler code here.
+            //do stuff
+            // ge knappen ett value,
+        }
+        val As2sBtn = findViewById<Button>(R.id.buttonNoteAs2s)
+        As2sBtn.setOnClickListener()
+        {
+            // Handler code here.
+            //do stuff
+            // ge knappen ett value,
+        }
     }
 }
+
+
+// Piano Keys
+// Confirm password button (under piano)
+// Clear input (to right)
+// Visually show how many keys you've pressed compared to full length of password/melody (maybe)
+
 
 // maybe helps to try with: https://www.onlinepianist.com/virtual-piano
 
