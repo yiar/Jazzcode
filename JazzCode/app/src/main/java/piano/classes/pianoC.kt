@@ -13,8 +13,7 @@ data class pianoC(val data : String,
 
 @Serializable
 data class userInputPassword(val data : String,
-                  var serListStat: List<String> = listOf<String>("")
-) {
+                  var serListStat: List<String> = listOf<String>("")) {
     // listOf<String>("C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B" )
     // göra en setter och mata in listan här som användare?
 

@@ -18,6 +18,14 @@ class SetNewPwActivity : AppCompatActivity() {
             // handler code
             // resetta user input
         }
+
+        val confirmBtn = findViewById<Button>(R.id.confirmPWId)
+        confirmBtn.setOnClickListener()
+        {
+            // handler code
+            // confirm user password, put it on the user pw list basically
+        }
+
         // btn 1 buttonNoteC2s
         val C2sBtn = findViewById<Button>(R.id.buttonNoteC2s)
         C2sBtn.setOnClickListener()
