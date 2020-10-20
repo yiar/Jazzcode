@@ -280,6 +280,17 @@
     </FrameLayout>
 
     <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="72dp"
+        android:background="@drawable/rounded_corners_buttons"
+        android:text="Undo"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="706dp" />
+
+    <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -287,18 +298,8 @@
         android:text="Clear"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintHorizontal_bias="0.462"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="715dp" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="80dp"
-        android:background="@drawable/rounded_corners_buttons"
-        android:text="Undo"
-        android:textColor="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="715dp" />
+        tools:layout_editor_absoluteY="706dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
