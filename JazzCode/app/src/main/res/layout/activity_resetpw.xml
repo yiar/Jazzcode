@@ -12,9 +12,13 @@
         android:id="@+id/imageView2"
         android:layout_width="225dp"
         android:layout_height="179dp"
-        app:srcCompat="@drawable/createjazzcodelock"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="150dp" />
+        app:layout_constraintBottom_toTopOf="@+id/choosePwViewID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.806"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.677"
+        app:srcCompat="@drawable/createjazzcodelock" />
 
     <TextView
         android:id="@+id/choosePwViewID"
@@ -22,14 +26,15 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:layout_marginTop="340dp"
-        android:text="Set Jazzcode"
+        android:text="@string/set_jazzcode"
         android:textColor="#FFFFFF"
         android:textSize="28sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageViewKeysBack"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewKeysBacks"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.726" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/confirmPWId"
