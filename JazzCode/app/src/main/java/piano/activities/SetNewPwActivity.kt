@@ -17,6 +17,7 @@ class SetNewPwActivity : AppCompatActivity() {
         {
             // handler code
             // resetta user input
+            // resetta user listan, sen använda confirm för att confirma den
         }
 
         val confirmBtn = findViewById<Button>(R.id.confirmPWId)
