@@ -20,3 +20,17 @@ class LogInActivity : AppCompatActivity() {
         }
     }
 }
+
+
+
+// Piano Keys
+// Confirm password button (under piano)
+// Clear input (to right)
+// Visually show how many keys you've pressed compared to full length of password/melody (maybe)
+/*
+ */
+
+
+
+
+// Show which key is the startNote. Color the note, or just write enum as text above piano.
