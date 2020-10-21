@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
 
 
            // arrayList.add("C")
-            handler.userList.add("C#")
+          /*  handler.userList.add("C#")
             handler.userList.add("D")
             handler.userList.add("D#")
             handler.userList.add("E")
@@ -50,9 +50,9 @@ class MainActivity : AppCompatActivity() {
             handler.userList.add("G#")
             handler.userList.add("A#")
             handler.userList.add("B")
-
+            */ // debug kod
             //handler.pwMatches(handler.userList)
-            if(handler.authenticate==true){ // this part doesnt work
+            if(handler.authenticate){ // this part doesnt work idk why?
                 val intent = Intent(this, Recordingsandlyrics::class.java)
                 startActivity(intent);
             }
