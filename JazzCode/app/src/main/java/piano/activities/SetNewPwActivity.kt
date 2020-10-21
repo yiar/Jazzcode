@@ -5,6 +5,30 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.example.nfinderc.R
 
+/*val arrayList = ArrayList<String>()//Creating an empty arraylist
+val userList = ArrayList<String>() // användaren som matar in
+val keysList = ArrayList<String>() // pre existing keys
+
+fun addStuff(args: ArrayList<String>){
+    arrayList.add("D")
+}
+
+fun pwMatches(args: ArrayList<String>){
+    // kolla ifall input på listan är samma som användarens lösenord osv
+    if(userList == keysList){
+        logIn()
+    }
+    if(userList.size == 10 && userList != keysList){
+        clearPw(keysList)
+    }
+}
+
+fun clearPw(args: ArrayList<String>) {
+    userList.clear()
+}*/
+
+
+// ("C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B")
 
 class SetNewPwActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,6 +42,9 @@ class SetNewPwActivity : AppCompatActivity() {
             // handler code
             // resetta user input
             // resetta user listan, sen använda confirm för att confirma den
+            //clear userPwList
+
+           // clearPw(userList)
         }
 
         val confirmBtn = findViewById<Button>(R.id.confirmPWId)

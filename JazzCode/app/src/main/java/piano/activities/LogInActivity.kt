@@ -12,10 +12,16 @@ class LogInActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        val logBtn = findViewById<Button>(R.id.forgotten_pw)
-        logBtn.setOnClickListener {
+        val newPwBtn = findViewById<Button>(R.id.forgotten_pw)
+        newPwBtn.setOnClickListener {
             // Handler code here.
             val intent = Intent(this, SetNewPwActivity::class.java)
+            startActivity(intent);
+        }
+        val logInBtn = findViewById<Button>(R.id.jazzcode_bttn)
+        logInBtn.setOnClickListener {
+            // Handler code here.
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent);
         }
     }
