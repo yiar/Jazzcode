@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
            // ge knappen ett value,
             println(handler.arrayList)
             handler.userList.add("C")
-
+            println(handler.userList)
 
 
            // arrayList.add("C")
@@ -52,10 +52,10 @@ class MainActivity : AppCompatActivity() {
             handler.userList.add("B")
             */ // debug kod
             //handler.pwMatches(handler.userList)
-            if(handler.authenticate){ // this part doesnt work idk why?
+         /*   if(handler.authenticate){ // this part doesnt work idk why?
                 val intent = Intent(this, Recordingsandlyrics::class.java)
                 startActivity(intent);
-            }
+            }*/
 
 
         }

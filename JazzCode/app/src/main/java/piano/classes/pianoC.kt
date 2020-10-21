@@ -76,6 +76,10 @@ class DiffList{
 
 
     }
+
+    fun confirmPw(args: ArrayList<String>){
+        keysList = userList
+    }
 }
 
 
