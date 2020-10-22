@@ -227,30 +227,35 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="66dp"
             android:layout_margin="10pt"
             android:gravity="bottom"
             android:orientation="horizontal">
 
             <ImageButton
                 android:id="@+id/imageButton2"
-                android:layout_width="68dp"
-                android:layout_height="52dp"
+                android:layout_width="69dp"
+                android:layout_height="66dp"
+                android:background="@drawable/rounded_corners_buttons"
                 android:scaleType="fitCenter"
                 app:srcCompat="@drawable/createjazzcodelock" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="70dp"
                 android:layout_height="wrap_content"
-                android:background="@android:drawable/ic_menu_search"
-                android:text="@string/search" />
+                android:background="@android:drawable/ic_menu_search" />
 
             <Button
                 android:id="@+id/button3"
                 android:layout_width="69dp"
                 android:layout_height="wrap_content"
-                android:background="@drawable/rounded_corners_buttons"
+                android:background="@android:drawable/ic_menu_add"
                 android:text="@string/new_idea" />
 
         </LinearLayout>
