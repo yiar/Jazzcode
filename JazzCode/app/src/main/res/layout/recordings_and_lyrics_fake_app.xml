@@ -241,15 +241,18 @@
 
             <Button
                 android:id="@+id/button2"
-                android:layout_width="wrap_content"
+                android:layout_width="70dp"
                 android:layout_height="wrap_content"
+                android:background="@android:drawable/ic_menu_search"
                 android:text="@string/search" />
 
             <Button
                 android:id="@+id/button3"
-                android:layout_width="match_parent"
+                android:layout_width="69dp"
                 android:layout_height="wrap_content"
+                android:background="@drawable/rounded_corners_buttons"
                 android:text="@string/new_idea" />
+
         </LinearLayout>
 
     </LinearLayout>
