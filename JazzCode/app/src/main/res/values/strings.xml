@@ -22,7 +22,7 @@
     <string name="calleth_you_cometh_i">Calleth you Cometh I</string>
     <string name="_5_october_2020">5 October 2020</string>
     <string name="_2_40">2:40</string>
-    <string name="search">Search</string>
-    <string name="new_idea">New Idea</string>
+    <string name="search">"Search icon"</string>
+    <string name="new_idea">+</string>
     <string name="set_jazzcode">Set Jazzcode</string>
 </resources>
