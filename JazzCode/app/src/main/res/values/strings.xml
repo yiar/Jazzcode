@@ -1,3 +1,29 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">NFinderC</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="enter_username">Enter username</string>
+    <string name="jazzcode">Jazzcode</string>
+    <string name="confirm">SET</string>
+    <string name="reset">CLEAR</string>
+    <string name="press_jazzcode_to_log_in_or_forgot_password_to_reset_your_password">Press Jazzcode to log in or forgot password to reset your password</string>
+    <string name="change_password">Change password</string>
+    <string name="i_want_you_back">I want you back</string>
+    <string name="april_6_1990">April 6 1990</string>
+    <string name="_2_10">2:10</string>
+    <string name="someone_you_loved">Someone you loved</string>
+    <string name="_4_mars_2019">4 Mars 2019</string>
+    <string name="_3_30">3:30</string>
+    <string name="still_feel_like_your_man" tools:ignore="DuplicateDefinition">Still feel like your man</string>
+    <string name="_10_aug_2020">10 Aug 2020</string>
+    <string name="_1_50">1:50</string>
+    <string name="i_still_keep_your_shampoo_in_my_shower_in_case_you_wanna_wash_your_hair_and_i_know_that_you_probably_found_yourself_someone_somewhere_but_i_do_not_really_care_cause_as_long_as_it_is_there_i_still_feel_like_your_man">... I still keep your shampoo in my shower, In case you wanna wash your hair. And I know that you probably found yourself someone somewhere. But I do not really care \'Cause as long as it is there. I still feel like your man ...</string>
+    <string name="still_feel_like_your_manz" tools:ignore="DuplicateDefinition">Still feel like your man</string>
+    <string name="_4_mars_2020">4 Mars 2020</string>
+    <string name="calleth_you_cometh_i">Calleth you Cometh I</string>
+    <string name="_5_october_2020">5 October 2020</string>
+    <string name="_2_40">2:40</string>
+    <string name="search">"Search icon"</string>
+    <string name="new_idea">+</string>
+    <string name="set_jazzcode">Set Jazzcode</string>
+    <string name="clear">Clear</string>
 </resources>
