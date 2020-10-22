@@ -225,48 +225,46 @@
 
         </LinearLayout>
 
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:layout_margin="10pt"
-        android:gravity="bottom"
-        android:orientation="horizontal"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="638dp">
-
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.05" />
-
-        <ImageButton
-            android:id="@+id/imageButton2"
-            android:layout_width="70dp"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:layout_gravity="right"
-            android:background="@android:color/black"
-            android:padding="5dp"
-            android:scaleType="fitCenter"
-            app:srcCompat="@drawable/createjazzcodelock" />
+            android:layout_margin="10pt"
+            android:gravity="bottom"
+            android:orientation="horizontal">
 
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.05" />
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:background="@android:drawable/ic_menu_search" />
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="right"
+                android:background="@android:color/black"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/createjazzcodelock" />
 
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:background="@android:drawable/ic_menu_add" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@android:drawable/ic_menu_search" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@android:drawable/ic_menu_add" />
+
+        </LinearLayout>
 
     </LinearLayout>
 
