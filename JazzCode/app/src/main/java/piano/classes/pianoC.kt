@@ -1,6 +1,8 @@
 package piano.classes
 
-import kotlinx.serialization.Serializable
+import android.content.Context
+import android.content.SharedPreferences
+
 
 /*
 @Serializable
@@ -53,10 +55,10 @@ class DiffList{
         arrayList.add("A#")
         arrayList.add("B")
 
-        tempList.add("C")
-        tempList.add("C")
-        tempList.add("C")
-        tempList.add("C")
+        //tempList.add("C")
+        //tempList.add("C")
+        //tempList.add("C")
+        //tempList.add("C")
     }
 
     //fun addAllKeys(args: ArrayList<String>){
@@ -84,8 +86,27 @@ class DiffList{
     }
 
     fun confirmPw(args: ArrayList<String>){
-        keysList = userList
+        keysList = ArrayList(userList)
         userList.clear()
+    }
+
+    val KEY_PWD : String = "KEY_PWD"
+    val PREFS_PWD : String = "pwd"
+    fun savePassword(context: Context, password: ArrayList<String>) {
+        val prefs: SharedPreferences = context.getSharedPreferences(PREFS_PWD, Context.MODE_PRIVATE)
+
+        val passwordSet: Set<String> = password.toSet()
+
+        prefs.edit().putStringSet(KEY_PWD, passwordSet).apply()
+    }
+
+    fun getPassword(context: Context) : ArrayList<String> {
+        val defaultValues = setOf<String>()
+        val prefs: SharedPreferences = context.getSharedPreferences(PREFS_PWD, Context.MODE_PRIVATE)
+
+        val pwdSet: Set<String> = prefs.getStringSet(KEY_PWD, defaultValues) as Set<String>
+
+        return ArrayList(pwdSet)
     }
 }
 

@@ -1,6 +1,7 @@
 package piano.activities
 
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.example.nfinderc.R
@@ -59,6 +60,9 @@ class SetNewPwActivity : AppCompatActivity() {
             // confirm user password, put it on the user pw list basically
             //handler.confirmPw(handler.userList)
             handler.confirmPw(handler.userList)
+            Log.d("Gil", "save pw: " + handler.keysList.toString())
+            handler.savePassword(applicationContext, handler.keysList)
+            finish()
             // ska man skicka användaren nånstans här? möjligtvis för att logga in
         }
 // ("C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B")

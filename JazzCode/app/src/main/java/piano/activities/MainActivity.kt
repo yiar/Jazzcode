@@ -3,6 +3,7 @@ package piano.activities
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import com.example.nfinderc.R
 import piano.classes.DiffList
@@ -11,6 +12,9 @@ import piano.classes.DiffList
 
 
 class MainActivity : AppCompatActivity() {
+
+    private val handler = DiffList()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -18,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         // ha en logik, om inte inloggad, visa login activity
         // hur ska man koppla knapparna till ett värde?
 
-        var handler = DiffList()
+
        // handler.arrayList
 
         val logBtn = findViewById<Button>(R.id.loggain)
@@ -44,11 +48,7 @@ class MainActivity : AppCompatActivity() {
             println(handler.arrayList)
             handler.userList.add("C")
             println(handler.userList)
-
-            if(handler.userList == handler.tempList){
-                val intent = Intent(this, Recordingsandlyrics::class.java)
-                startActivity(intent)
-            }
+            isPwMatch()
 
            // arrayList.add("C")
           /*  handler.userList.add("C#")
@@ -62,7 +62,7 @@ class MainActivity : AppCompatActivity() {
             handler.userList.add("A#")
             handler.userList.add("B")
             */ // debug kod
-            //handler.pwMatches(handler.userList)
+            //
          /*   if(handler.authenticate){ // this part doesnt work idk why?
                 val intent = Intent(this, Recordingsandlyrics::class.java)
                 startActivity(intent);
@@ -71,108 +71,79 @@ class MainActivity : AppCompatActivity() {
 
         }
         val D2Btn = findViewById<Button>(R.id.buttonNoteD2)
-        D2Btn.setOnClickListener()
-        {
-            // Handler code here.
-            //do stuff
-            // ge knappen ett value,
+        D2Btn.setOnClickListener() {
             handler.userList.add("C#")
-            handler.pwMatches(handler.userList)
+            isPwMatch()
 
         }
         val E2Btn = findViewById<Button>(R.id.buttonNoteE2)
-        E2Btn.setOnClickListener()
-        {
-            // Handler code here.
-            //do stuff
-            // ge knappen ett value,
+        E2Btn.setOnClickListener() {
             handler.userList.add("D")
-            handler.pwMatches(handler.userList)
+            isPwMatch()
 
         }
         val F2Btn = findViewById<Button>(R.id.buttonNoteF2)
-        F2Btn.setOnClickListener()
-        {
-            // Handler code here.
-            //do stuff
-            // ge knappen ett value,
+        F2Btn.setOnClickListener() {
             handler.userList.add("D#")
-            handler.pwMatches(handler.userList)
+            isPwMatch()
 
         }
         val G2Btn = findViewById<Button>(R.id.buttonNoteG2)
-        G2Btn.setOnClickListener()
-        {
-            // Handler code here.
-            //do stuff
-            // ge knappen ett value,
+        G2Btn.setOnClickListener() {
             handler.userList.add("E")
-            handler.pwMatches(handler.userList)
+            isPwMatch()
         }
         val A2Btn = findViewById<Button>(R.id.buttonNoteA2)
-        A2Btn.setOnClickListener()
-        {
-            // Handler code here.
-            //do stuff
-            // ge knappen ett value,
+        A2Btn.setOnClickListener() {
             handler.userList.add("F")
-            handler.pwMatches(handler.userList)
+            isPwMatch()
         }
         val B2Btn = findViewById<Button>(R.id.buttonNoteB2)
-        B2Btn.setOnClickListener()
-        {
-            // Handler code here.
-            //do stuff
-            // ge knappen ett value,
+        B2Btn.setOnClickListener() {
             handler.userList.add("F#")
-            handler.pwMatches(handler.userList)
+            isPwMatch()
         }
         val Cs2Btn = findViewById<Button>(R.id.buttonNoteCs2)
-        Cs2Btn.setOnClickListener()
-        {
-            // Handler code here.
-            //do stuff
-            // ge knappen ett value,
+        Cs2Btn.setOnClickListener() {
             handler.userList.add("G")
-            handler.pwMatches(handler.userList)
+            isPwMatch()
         }
         val Gs2Btn = findViewById<Button>(R.id.buttonNoteGs2)
-        Gs2Btn.setOnClickListener()
-        {
-            // Handler code here.
-            //do stuff
-            // ge knappen ett value,
+        Gs2Btn.setOnClickListener() {
             handler.userList.add("G#")
-            handler.pwMatches(handler.userList)
+            isPwMatch()
         }
         val Ds2Btn = findViewById<Button>(R.id.buttonNoteDs2)
-        Ds2Btn.setOnClickListener()
-        {
-            // Handler code here.
-            //do stuff
-            // ge knappen ett value,
+        Ds2Btn.setOnClickListener() {
             handler.userList.add("A")
-            handler.pwMatches(handler.userList)
+            isPwMatch()
         }
         val Fs2Btn = findViewById<Button>(R.id.buttonNoteFs2)
-        Fs2Btn.setOnClickListener()
-        {
-            // Handler code here.
-            //do stuff
-            // ge knappen ett value,
+        Fs2Btn.setOnClickListener() {
             handler.userList.add("A#")
-            handler.pwMatches(handler.userList)
+            isPwMatch()
         }
         val As2Btn = findViewById<Button>(R.id.buttonNoteAs2)
-        As2Btn.setOnClickListener()
-        {
-            // Handler code here.
-            //do stuff
-            // ge knappen ett value,
+        As2Btn.setOnClickListener() {
             handler.userList.add("B")
-            handler.pwMatches(handler.userList)
+            isPwMatch()
         }
 
+    }
+
+    override fun onResume() {
+        super.onResume()
+        handler.keysList = handler.getPassword(applicationContext)
+        Log.d("Gil", "onResume: List = " + handler.getPassword(applicationContext).toString())
+    }
+
+    private fun isPwMatch() {
+        Log.d("Gil", "isPwMatch: userList" + handler.userList.toString())
+        Log.d("Gil", "isPwMatch: keysList" + handler.keysList.toString())
+        if(handler.userList == handler.keysList){
+            val intent = Intent(this, Recordingsandlyrics::class.java)
+            startActivity(intent)
+        }
     }
 }
 
