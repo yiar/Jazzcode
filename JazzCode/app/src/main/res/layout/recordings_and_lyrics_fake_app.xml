@@ -234,10 +234,10 @@
 
             <ImageButton
                 android:id="@+id/imageButton2"
-                android:layout_width="77dp"
-                android:layout_height="95dp"
+                android:layout_width="68dp"
+                android:layout_height="52dp"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/musiclock" />
+                app:srcCompat="@drawable/createjazzcodelock" />
 
             <Button
                 android:id="@+id/button2"
