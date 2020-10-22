@@ -28,6 +28,13 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent);
         }
         // btn 1 buttonNoteC2s
+
+        val clearBtn = findViewById<Button>(R.id.clearButton_id)
+        clearBtn.setOnClickListener()
+        {
+            handler.clearPw(handler.userList)
+        }
+
         val C2Btn = findViewById<Button>(R.id.buttonNoteC2)
         C2Btn.setOnClickListener()
         {

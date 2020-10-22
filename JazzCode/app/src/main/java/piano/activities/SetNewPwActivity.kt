@@ -58,6 +58,8 @@ class SetNewPwActivity : AppCompatActivity() {
             // handler code
             // confirm user password, put it on the user pw list basically
             //handler.confirmPw(handler.userList)
+            handler.confirmPw(handler.userList)
+            // ska man skicka användaren nånstans här? möjligtvis för att logga in
         }
 // ("C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B")
 
