@@ -13,7 +13,7 @@ data class pianoC(val data : List<String>,
 
 }
 
-
+C A C A
 // behöver inte vara seriazable för de inte behöver sparas
 /*data class userInputPassword(val data : List<String>,
                              var inputPwLists: List<String>) //= listOf<String>("")) {
@@ -37,6 +37,7 @@ class DiffList{
     var userList = ArrayList<String>() // användaren som matar in
     var keysList = ArrayList<String>() // pre existing keys
     var authenticate: Boolean = false
+    var tempList = ArrayList<String>()
 
 
     init {
@@ -51,6 +52,11 @@ class DiffList{
         arrayList.add("G#")
         arrayList.add("A#")
         arrayList.add("B")
+
+        tempList.add("C")
+        tempList.add("C")
+        tempList.add("C")
+        tempList.add("C")
     }
 
     //fun addAllKeys(args: ArrayList<String>){

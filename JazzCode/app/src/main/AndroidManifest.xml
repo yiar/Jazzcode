@@ -22,6 +22,8 @@
         </activity>
         <activity android:name="piano.activities.SetNewPwActivity">
         </activity>
+        <activity android:name="piano.activities.Recordingsandlyrics">
+        </activity>
 
     </application>
 

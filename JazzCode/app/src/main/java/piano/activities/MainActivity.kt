@@ -38,6 +38,10 @@ class MainActivity : AppCompatActivity() {
             handler.userList.add("C")
             println(handler.userList)
 
+            if(handler.userList == handler.tempList){
+                val intent = Intent(this, Recordingsandlyrics::class.java)
+                startActivity(intent)
+            }
 
            // arrayList.add("C")
           /*  handler.userList.add("C#")
