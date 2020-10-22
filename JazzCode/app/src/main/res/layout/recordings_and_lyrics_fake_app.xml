@@ -133,14 +133,14 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="237dp"
+            android:layout_height="310dp"
             android:layout_weight="1"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
-                android:layout_height="262dp"
+                android:layout_height="157dp"
                 android:layout_weight="1"
                 android:text="@string/i_still_keep_your_shampoo_in_my_shower_in_case_you_wanna_wash_your_hair_and_i_know_that_you_probably_found_yourself_someone_somewhere_but_i_do_not_really_care_cause_as_long_as_it_is_there_i_still_feel_like_your_man"
                 android:textColor="#FFFFFF"
@@ -188,12 +188,12 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="326dp"
+            android:layout_height="296dp"
             android:orientation="horizontal">
 
             <LinearLayout
                 android:layout_width="332dp"
-                android:layout_height="match_parent"
+                android:layout_height="308dp"
                 android:orientation="vertical">
 
                 <TextView
