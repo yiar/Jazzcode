@@ -18,13 +18,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-
-        val logBtn = findViewById<Button>(R.id.loggain)
-        logBtn.setOnClickListener { // debugging purposes
-            val intent = Intent(this, LogInActivity::class.java)
-            startActivity(intent);
-        }
-
         val clearBtn = findViewById<Button>(R.id.clearButton_id)
         clearBtn.setOnClickListener()
         {

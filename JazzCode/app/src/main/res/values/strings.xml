@@ -1,11 +1,11 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">NFinderC</string>
-    <string name="forgot_password">Forgot password</string>
+    <string name="forgot_password">Set password</string>
     <string name="enter_username">Enter username</string>
     <string name="jazzcode">Jazzcode</string>
     <string name="confirm">SET</string>
     <string name="reset">CLEAR</string>
-    <string name="press_jazzcode_to_log_in_or_forgot_password_to_reset_your_password">Press Jazzcode to log in or forgot password to reset your password</string>
+    <string name="press_jazzcode_to_log_in_or_forgot_password_to_reset_your_password">Press Jazzcode to log in or forgot password to reset your password or to simply set a password</string>
     <string name="change_password">Change password</string>
     <string name="i_want_you_back">I want you back</string>
     <string name="april_6_1990">April 6 1990</string>
