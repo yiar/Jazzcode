@@ -94,12 +94,12 @@ class MainActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         handler.keysList = handler.getPassword(applicationContext) as ArrayList<String>
-        Log.d("Gil", "onResume: List = " + handler.getPassword(applicationContext).toString())
+       // Log.d("Gil", "onResume: List = " + handler.getPassword(applicationContext).toString())
     }
 
     private fun isPwMatch() {
-        Log.d("Gil", "isPwMatch: userList" + handler.userList.toString())
-        Log.d("Gil", "isPwMatch: keysList" + handler.keysList.toString())
+      //  Log.d("Gil", "isPwMatch: userList" + handler.userList.toString())
+     //   Log.d("Gil", "isPwMatch: keysList" + handler.keysList.toString())
         if(handler.userList == handler.keysList){
             val intent = Intent(this, Recordingsandlyrics::class.java)
             startActivity(intent)

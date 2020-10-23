@@ -13,7 +13,6 @@ class Recordingsandlyrics : AppCompatActivity() {
 
         val changePw = findViewById<ImageButton>(R.id.changePwBtn2)
         changePw.setOnClickListener { // debugging purposes
-            // Handler code here.
             val intent = Intent(this, SetNewPwActivity::class.java)
             startActivity(intent);
         }
