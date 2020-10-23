@@ -21,6 +21,18 @@ Approach: Design for the Real World
 
 
 
-Installation:
+Installation with a virtual device:
 
-TODO: Having content on the README which is enough for the teacher(s) to download and run the code on a device.
+1: Clone the repo
+2: Open the project in android studios
+3: Select AVD manager
+4: Create virtual device
+5: Category phone, select a device (Pixel 4 XL has been used)
+6: Build and run
+
+Installation with a physical device:
+1. Clone the repo
+2: OPen the project in android studios
+3: Select avd amanger
+4: Select device
+5: Build and run
