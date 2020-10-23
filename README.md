@@ -1,4 +1,5 @@
 # Jazzcode - Passcode for Musicians
+Developed with Kotlin
 
 See details about the project on our website: https://kazoo-oleander-d6cc.squarespace.com/?p
 
