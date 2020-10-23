@@ -3,8 +3,6 @@
 See details about the project on our website: https://kazoo-oleander-d6cc.squarespace.com/?p
 
 
-TODO: Picture of Jazzcode in action
-
 What problem does Jazzcode solve?
 - Personalization
 - Spaced repetition practice for musicians
@@ -28,6 +26,7 @@ Installation with a virtual device:
 3: Select AVD manager
 4: Create virtual device
 5: Category phone, select a device (Pixel 4 XL has been used)
+6: Select API level(29 has been used for this project)
 6: Build and run
 
 Installation with a physical device:
@@ -36,3 +35,7 @@ Installation with a physical device:
 3: Select avd amanger
 4: Select device
 5: Build and run
+
+API 29
+
+OBS: The app requires a password longer than 4 button clicks and shorter than 15.
