@@ -8,7 +8,6 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.nfinderc.R
 import piano.classes.DiffList
 
-
 class SetNewPwActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -26,11 +25,15 @@ class SetNewPwActivity : AppCompatActivity() {
         val confirmBtn = findViewById<Button>(R.id.confirmPWId)
         confirmBtn.setOnClickListener()
         {
-            handler.confirmPw(handler.userList)
-            Log.d("Gil", "save pw: " + handler.keysList.toString())
-            handler.savePassword(applicationContext, handler.keysList)
-            val intent = Intent(this, LogInActivity::class.java)
-            startActivity(intent)
+            if(handler.userList.size in 4..14) {
+                handler.confirmPw(handler.userList)
+                Log.d("Gil", "save pw: " + handler.keysList.toString())
+                handler.savePassword(applicationContext, handler.keysList)
+                val intent = Intent(this, LogInActivity::class.java)
+                startActivity(intent)
+            }
+            else handler.clearPw(handler.keysList)
+
         }
 
         // btn 1 buttonNoteC2s

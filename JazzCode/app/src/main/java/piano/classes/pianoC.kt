@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.SharedPreferences
 import java.lang.StringBuilder
 
+
 class DiffList{
     var arrayList = ArrayList<String>()//Creating an empty arraylist
     var userList = ArrayList<String>() // användaren som matar in
