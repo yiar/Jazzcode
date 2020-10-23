@@ -37,4 +37,6 @@ Installation with a physical device:
 - Build and run
 
 
-OBS: The app requires a password longer than 4 button clicks and shorter than 15.
+When the app has been built and runs, the first time you should set a password that is longer than 3 and shorter than 16 keys(4-15)
+When you successfully set a password you will be sent to the previous activity. Press log in and enter your new password.
+If the password has been entered successfully you will unlock the app. You can press the little lock to set a new password at this point or simply enjoy the lyrics.
