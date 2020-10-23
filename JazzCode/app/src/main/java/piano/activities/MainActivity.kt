@@ -17,21 +17,19 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
 
-        // ha en logik, om inte inloggad, visa login activity
-        // hur ska man koppla knapparna till ett värde?
+        //if(handler.keysList.isEmpty()) {
+         //   setContentView(R.layout.activity_resetpw)
+      //  }
+        //else {
+            setContentView(R.layout.activity_main)
 
-
-       // handler.arrayList
 
         val logBtn = findViewById<Button>(R.id.loggain)
         logBtn.setOnClickListener { // debugging purposes
-            // Handler code here.
             val intent = Intent(this, LogInActivity::class.java)
             startActivity(intent);
         }
-        // btn 1 buttonNoteC2s
 
         val clearBtn = findViewById<Button>(R.id.clearButton_id)
         clearBtn.setOnClickListener()
@@ -42,33 +40,8 @@ class MainActivity : AppCompatActivity() {
         val C2Btn = findViewById<Button>(R.id.buttonNoteC2)
         C2Btn.setOnClickListener()
         {
-            // Handler code here.
-            //do stuff
-           // ge knappen ett value,
-            println(handler.arrayList)
             handler.userList.add("C")
-            println(handler.userList)
             isPwMatch()
-
-           // arrayList.add("C")
-          /*  handler.userList.add("C#")
-            handler.userList.add("D")
-            handler.userList.add("D#")
-            handler.userList.add("E")
-            handler.userList.add("F")
-            handler.userList.add("F#")
-            handler.userList.add("G")
-            handler.userList.add("G#")
-            handler.userList.add("A#")
-            handler.userList.add("B")
-            */ // debug kod
-            //
-         /*   if(handler.authenticate){ // this part doesnt work idk why?
-                val intent = Intent(this, Recordingsandlyrics::class.java)
-                startActivity(intent);
-            }*/
-
-
         }
         val D2Btn = findViewById<Button>(R.id.buttonNoteD2)
         D2Btn.setOnClickListener() {
@@ -133,7 +106,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        handler.keysList = handler.getPassword(applicationContext)
+        handler.keysList = handler.getPassword(applicationContext) as ArrayList<String>
         Log.d("Gil", "onResume: List = " + handler.getPassword(applicationContext).toString())
     }
 
