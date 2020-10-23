@@ -21,21 +21,20 @@ Approach: Design for the Real World
 
 Installation with a virtual device:
 
-1: Clone the repo
-2: Open the project in android studios
-3: Select AVD manager
-4: Create virtual device
-5: Category phone, select a device (Pixel 4 XL has been used)
-6: Select API level(29 has been used for this project)
-6: Build and run
+- Clone the repo
+- Open the project in android studios
+- Select AVD manager
+- Create virtual device
+- Category phone, select a device (Pixel 4 XL has been used)
+- Select API level(29 has been used for this project)
+- Build and run
 
 Installation with a physical device:
-1. Clone the repo
-2: OPen the project in android studios
-3: Select avd amanger
-4: Select device
-5: Build and run
+- Clone the repo
+- Open the project in android studios
+- Select avd amanger
+- Select device
+- Build and run
 
-API 29
 
 OBS: The app requires a password longer than 4 button clicks and shorter than 15.
