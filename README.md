@@ -3,6 +3,8 @@ A concept and prototype aspiring to help musicians practice useful music skills 
 
 ## [Watch video (<30 sec) ](https://youtu.be/dhQ1iShV8ak)
 
+![jazzCodeLogo](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/JazzCodeLogo.jpeg?raw=true)
+
 
 ## The problem
 
@@ -13,7 +15,7 @@ A concept and prototype aspiring to help musicians practice useful music skills 
 
 ## Our Concept & Prototype
 
-![jazzCodeLogo](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/JazzCodeLogo.jpeg?raw=true)
+
 
 ![userExperienceAndUsability](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/userExperienceAndUsability.jpeg?raw=true)
 
