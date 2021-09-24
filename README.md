@@ -4,19 +4,19 @@
 
 
 
-[jazzcodeLogo](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/learnMultipleKeys.jpeg?raw=true)
+![jazzcodeLogo](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/learnMultipleKeys.jpeg?raw=true)
 
-[Problem2](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/Problem%202.jpeg?raw=true)
+![Problem2](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/Problem%202.jpeg?raw=true)
 
-[Problem1](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/Problem%201.jpeg?raw=true)
+![Problem1](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/Problem%201.jpeg?raw=true)
 
-[slogan](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/slogan.jpeg?raw=true)
+![slogan](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/slogan.jpeg?raw=true)
 
-[secure](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/secure.jpeg?raw=true)
+![secure](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/secure.jpeg?raw=true)
 
-[private](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/private.jpeg?raw=true)
+![private](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/private.jpeg?raw=true)
 
-[userExperienceAndUsability](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/userExperienceAndUsability.jpeg?raw=true)
+![userExperienceAndUsability](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/userExperienceAndUsability.jpeg?raw=true)
 
 
 
