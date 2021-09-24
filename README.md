@@ -13,7 +13,7 @@ A concept and prototype aspiring to help musicians practice useful music skills 
 
 ## Our Concept & Prototype
 
-![jazzCodeLogo](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/jazzCodeLogo.jpeg?raw=true)
+![jazzCodeLogo](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/JazzCodeLogo.jpeg?raw=true)
 
 ![userExperienceAndUsability](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/userExperienceAndUsability.jpeg?raw=true)
 
