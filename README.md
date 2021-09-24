@@ -3,12 +3,14 @@
 ## [Watch video (<30 sec) ](https://youtu.be/dhQ1iShV8ak)
 
 
+## The problem
 
-![jazzcodeLogo](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/learnMultipleKeys.jpeg?raw=true)
+![Problem1](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/Problem%201.jpeg?raw=true)
 
 ![Problem2](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/Problem%202.jpeg?raw=true)
 
-![Problem1](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/Problem%201.jpeg?raw=true)
+
+## Our Concept & Prototype
 
 ![slogan](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/slogan.jpeg?raw=true)
 
@@ -18,10 +20,14 @@
 
 ![userExperienceAndUsability](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/userExperienceAndUsability.jpeg?raw=true)
 
+![jazzcodeLogo](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/learnMultipleKeys.jpeg?raw=true)
+
 
 
 See details about the project on our [website](https://kazoo-oleander-d6cc.squarespace.com/?p) (the squarespace website we spent a lot of time making to explain the project is down because the teacher deleted it without asking if we had backed it up...)
 
+
+## TODO: Add figma sketches document
 
 ## What are the main benefits of the Jazzcode concept?
 - Effective learning by spaced repetition practice for musicians that is easy that is easy to add to your routine
