@@ -36,7 +36,7 @@ A concept and prototype aspiring to help musicians practice useful music skills 
 
 
 
-See details about the project on our [website](https://kazoo-oleander-d6cc.squarespace.com/?p) (the squarespace website we spent a lot of time making to explain the project is down because the teacher deleted it without asking if we had backed it up...)
+We spent a lot of time creating a squarespace [website](https://kazoo-oleander-d6cc.squarespace.com/?p) but the teacher deleted it without asking if we had backed it up...
 
 
 ## TODO: Add figma sketches document
