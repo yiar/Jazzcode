@@ -2,7 +2,7 @@
 
 ## [Watch 30sec video](https://youtu.be/dhQ1iShV8ak)
 
-The long-term idea was for the authentication method could be use in multiple apps, perhaps music apps that musicians regularly use. To demonstrate Jazzcode we made a simple example app idea it could be applied to which would let a musician store private lyrics they're working on.
+The long-term idea was for the authentication method to be able to be used in multiple apps, perhaps music apps that musicians regularly use. To demonstrate Jazzcode we made a simple example app idea it could be applied to which would let a musician store private lyrics they're working on.
 
 
 [jazzcodeLogo]()
