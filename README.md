@@ -4,7 +4,7 @@
 
 Jazzcode is a runnable prototype for Android smartphones exploring an authentication method for musicians which help them practice useful music skills while unlocking their apps.
 
-# [Watch video (<30 sec) ](https://youtu.be/dhQ1iShV8ak)
+# [Watch video (30 sec) ](https://youtu.be/dhQ1iShV8ak)
 
  <br/><br/>
 
