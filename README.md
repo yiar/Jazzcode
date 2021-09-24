@@ -1,19 +1,21 @@
+![jazzCodeLogo](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/JazzCodeLogo.jpeg?raw=true)
+
 # Jazzcode - Passcode for Musicians
 A concept and prototype aspiring to help musicians practice useful music skills while keeping their apps private.
 
-## [Watch video (<30 sec) ](https://youtu.be/dhQ1iShV8ak)
-
-![jazzCodeLogo](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/JazzCodeLogo.jpeg?raw=true)
+# [Watch video (<30 sec) ](https://youtu.be/dhQ1iShV8ak)
 
 
-## The problem
+
+
+# The problem
 
 ![Problem1](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/Problem%201.jpeg?raw=true)
 
 ![Problem2](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/Problem%202.jpeg?raw=true)
 
 
-## Our Concept & Prototype
+# Our Concept & Prototype
 
 
 
