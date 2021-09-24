@@ -3,9 +3,9 @@
 # Jazzcode - Passcode for Musicians
 A concept and prototype aspiring to help musicians practice useful music skills while keeping their apps private.
 
-# [Watch video (<30 sec) ](https://youtu.be/dhQ1iShV8ak)
+## [Watch video (<30 sec) ](https://youtu.be/dhQ1iShV8ak)
 
-
+ <br/><br/>
 
 
 # The problem
@@ -14,6 +14,7 @@ A concept and prototype aspiring to help musicians practice useful music skills 
 
 ![Problem2](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/Problem%202.jpeg?raw=true)
 
+ <br/><br/>
 
 # Our Concept & Prototype
 
