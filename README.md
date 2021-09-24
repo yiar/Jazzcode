@@ -1,4 +1,5 @@
 # Jazzcode - Passcode for Musicians
+A concept and prototype aspiring to help musicians practice useful music skills while keeping their apps private.
 
 ## [Watch video (<30 sec) ](https://youtu.be/dhQ1iShV8ak)
 
@@ -12,15 +13,20 @@
 
 ## Our Concept & Prototype
 
-![slogan](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/slogan.jpeg?raw=true)
-
-![secure](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/secure.jpeg?raw=true)
-
-![private](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/private.jpeg?raw=true)
+![jazzCodeLogo](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/jazzCodeLogo.jpeg?raw=true)
 
 ![userExperienceAndUsability](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/userExperienceAndUsability.jpeg?raw=true)
 
-![jazzcodeLogo](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/learnMultipleKeys.jpeg?raw=true)
+![learnMultipleKeys](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/learnMultipleKeys.jpeg?raw=true)
+
+![private](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/private.jpeg?raw=true)
+
+![secure](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/secure.jpeg?raw=true)
+
+
+
+
+![slogan](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/slogan.jpeg?raw=true)
 
 
 
