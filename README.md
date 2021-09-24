@@ -8,7 +8,7 @@
 
 
 
-See details about the project on our [website](https://kazoo-oleander-d6cc.squarespace.com/?p) (the website we spent a lot of time explaining the project is down because the teacher deleted it without asking if we had backed it up...)
+See details about the project on our [website](https://kazoo-oleander-d6cc.squarespace.com/?p) (the squarespace website we spent a lot of time making to explain the project is down because the teacher deleted it without asking if we had backed it up...)
 
 
 ## What are the main benefits of the Jazzcode concept?
