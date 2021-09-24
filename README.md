@@ -39,7 +39,6 @@ A runnable android prototype of concept aspiring to help musicians practice usef
 We spent a lot of time creating a squarespace [website](https://kazoo-oleander-d6cc.squarespace.com/?p) but the teacher deleted it without asking if we had backed it up...
 
 
-## TODO: Add figma sketches document
 
 ## What are the main benefits of the Jazzcode concept?
 - Effective learning by spaced repetition practice for musicians, which is easy to add to your already existing routine
