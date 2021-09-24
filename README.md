@@ -2,7 +2,7 @@
 ![jazzCodeLogo](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/JazzCodeLogo.jpeg?raw=true)
 
 
-Jazzcode is a runnable prototype of a concept aspiring to help musicians practice useful music skills while keeping their apps private.
+Jazzcode is a runnable app prototype of a concept aspiring to help musicians practice useful music skills while keeping their apps private.
 
 # [Watch video (<30 sec) ](https://youtu.be/dhQ1iShV8ak)
 
