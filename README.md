@@ -36,9 +36,9 @@ The course also had a big focus in generating different ideas, iterating, not ju
 
 
 
-# Installation, so you can try the application
+# Installation
 
-## Installation with a virtual device:
+## Virtual device:
 
 - Clone the repo
 - Open the project in android studios
@@ -48,7 +48,7 @@ The course also had a big focus in generating different ideas, iterating, not ju
 - Select API level(29 has been used for this project)
 - Build and run
 
-## Installation with a physical device:
+## Physical device:
 - Clone the repo
 - Open the project in android studios
 - Select avd amanger
