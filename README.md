@@ -4,7 +4,7 @@
 
 A runnable android prototype of concept aspiring to help musicians practice useful music skills while keeping their apps private.
 
-## [Watch video (<30 sec) ](https://youtu.be/dhQ1iShV8ak)
+# [Watch video (<30 sec) ](https://youtu.be/dhQ1iShV8ak)
 
  <br/><br/>
 
