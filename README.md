@@ -41,11 +41,9 @@ See details about the project on our [website](https://kazoo-oleander-d6cc.squar
 ## TODO: Add figma sketches document
 
 ## What are the main benefits of the Jazzcode concept?
-- Effective learning by spaced repetition practice for musicians that is easy that is easy to add to your routine
-[practiceInMultipleKeys](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/learnMultipleKeys.jpeg?raw=true)
-
-- More easily recall new passcodes, which allows for changing password more often to make you more secure
-- Personalization, chose your own music to use as passcode
+- Effective learning by spaced repetition practice for musicians, which is easy to add to your already existing routine
+- More easily recall new passcodes in melodies, which allows for changing password more often to make you more secure
+- Personalization. Chose a melody you love to use as passcode.
 
 
 
