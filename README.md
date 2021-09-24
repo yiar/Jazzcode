@@ -4,7 +4,19 @@
 
 
 
-[jazzcodeLogo]()
+[jazzcodeLogo](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/learnMultipleKeys.jpeg?raw=true)
+
+[Problem2](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/Problem%202.jpeg?raw=true)
+
+[Problem1](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/Problem%201.jpeg?raw=true)
+
+[slogan](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/slogan.jpeg?raw=true)
+
+[secure](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/secure.jpeg?raw=true)
+
+[private](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/private.jpeg?raw=true)
+
+[userExperienceAndUsability](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/userExperienceAndUsability.jpeg?raw=true)
 
 
 
@@ -13,6 +25,8 @@ See details about the project on our [website](https://kazoo-oleander-d6cc.squar
 
 ## What are the main benefits of the Jazzcode concept?
 - Effective learning by spaced repetition practice for musicians that is easy that is easy to add to your routine
+[practiceInMultipleKeys](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/learnMultipleKeys.jpeg?raw=true)
+
 - More easily recall new passcodes, which allows for changing password more often to make you more secure
 - Personalization, chose your own music to use as passcode
 
