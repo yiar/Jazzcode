@@ -2,7 +2,7 @@
 ![jazzCodeLogo](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/JazzCodeLogo.jpeg?raw=true)
 
 
-A concept and prototype aspiring to help musicians practice useful music skills while keeping their apps private.
+A runnable android prototype aspiring to help musicians practice useful music skills while keeping their apps private.
 
 ## [Watch video (<30 sec) ](https://youtu.be/dhQ1iShV8ak)
 
