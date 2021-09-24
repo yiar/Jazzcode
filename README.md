@@ -1,8 +1,9 @@
 # Jazzcode - Passcode for Musicians
 
-[Watch 30sec video](https://youtu.be/dhQ1iShV8ak)
+## [Watch 30sec video](https://youtu.be/dhQ1iShV8ak)
 
-Jazzcode
+The long-term idea was for the authentication method could be use in multiple apps, perhaps music apps that musicians regularly use. To demonstrate Jazzcode we made a simple example app idea it could be applied to which would let a musician store private lyrics they're working on.
+
 
 [jazzcodeLogo]()
 
@@ -22,12 +23,13 @@ See details about the project on our [website](https://kazoo-oleander-d6cc.squar
 
 A challenge to innovate a user authentication interaction from a school course in Mobile computing.
 The scope wasn't that big, so we didn't have time to make the package modular so other apps could use it.
-The course also had a big focus in generating different ideas, iterating, not just make the application.
 
-A few different options were available in the course, we choose this combination:
+The course also had a big focus in generating different ideas, iterating, not just make the application. Our process of generating and presenting these ideas can be read about in the /process folder.
+
+A few different options were available in the course. We choose this combination:
 
 Challenge: Digital Authentication and Access
-Approach: Design for the Real World (aka. actually making an app that work, even if very limited functionality)
+Approach: Design for the Real World (aka. actually making an app that works, even if very limited functionality)
 
 
 # Installation, so you can try the application
@@ -51,7 +53,7 @@ Approach: Design for the Real World (aka. actually making an app that work, even
 
 
 # Using the application
-When the app has been built and runs, the first time you should set a password that is longer than 3 and shorter than 16 keys(4-15).
+When the app has been built and runs, the first time you should set a password that is 4-15 characters long.
 When you successfully set a password you will be sent to the previous activity. 
 Press log in and enter your new password.
 If the password has been entered successfully you will unlock the app. You can press the little lock to set a new password at this point or simply enjoy the lyrics.
