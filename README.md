@@ -34,18 +34,18 @@ A runnable android prototype of concept aspiring to help musicians practice usef
 
 ![slogan](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/slogan.jpeg?raw=true)
 
-
+ <br/><br/>
 
 We spent a lot of time creating a squarespace [website](https://kazoo-oleander-d6cc.squarespace.com/?p) but the teacher deleted it without asking if we had backed it up...
 
-
+ <br/><br/>
 
 ## What are the main benefits of the Jazzcode concept?
 - Effective learning by spaced repetition practice for musicians, which is easy to add to your already existing routine
 - More easily recall new passcodes in melodies, which allows for changing password more often to make you more secure
 - Personalization. Chose a melody you love to use as passcode.
 
-
+ <br/><br/>
 
 ## Why was Jazzcode made?
 
@@ -62,7 +62,7 @@ The course also had a big focus in generating different ideas, iterating, not ju
 
 
 
-
+ <br/><br/>
 
 
 # Installation
