@@ -1,15 +1,14 @@
 # Jazzcode - Passcode for Musicians
 
-## [Watch 30sec video](https://youtu.be/dhQ1iShV8ak)
+## [Watch video (<30 sec) ](https://youtu.be/dhQ1iShV8ak)
 
-The long-term idea was for the authentication method to be able to be used in multiple apps, perhaps music apps that musicians regularly use. To demonstrate Jazzcode we made a simple example app idea it could be applied to which would let a musician store private lyrics they're working on.
 
 
 [jazzcodeLogo]()
 
 
 
-See details about the project on our [website](https://kazoo-oleander-d6cc.squarespace.com/?p) (the website is currently down because of squarespace cost, see the /websitePDFs folder of how website looked for now.) 
+See details about the project on our [website](https://kazoo-oleander-d6cc.squarespace.com/?p) (the website we spent a lot of time explaining the project is down because the teacher deleted it without asking if we had backed it up...)
 
 
 ## What are the main benefits of the Jazzcode concept?
@@ -22,14 +21,19 @@ See details about the project on our [website](https://kazoo-oleander-d6cc.squar
 ## Why was Jazzcode made?
 
 A challenge to innovate a user authentication interaction from a school course in Mobile computing.
-The scope wasn't that big, so we didn't have time to make the package modular so other apps could use it.
-
-The course also had a big focus in generating different ideas, iterating, not just make the application. Our process of generating and presenting these ideas can be read about in the /process folder.
-
 A few different options were available in the course. We choose this combination:
 
 Challenge: Digital Authentication and Access
 Approach: Design for the Real World (aka. actually making an app that works, even if very limited functionality)
+
+The scope wasn't that big, so we didn't have time to make the package modular so other apps could use it.
+The long-term idea was for the authentication method to be able to be used in multiple apps, perhaps music apps that musicians regularly use. To demonstrate Jazzcode we made a simple example app idea it could be applied to which would let a musician store private lyrics they're working on.
+
+The course also had a big focus in generating different ideas, iterating, not just make the application. Our process of generating and presenting these ideas can be read about in the /process folder.
+
+
+
+
 
 
 # Installation, so you can try the application
