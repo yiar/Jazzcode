@@ -2,12 +2,12 @@
 ![jazzCodeLogo](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/JazzCodeLogo.jpeg?raw=true)
 
 Sections
-* [The improvement opportunity](#theProblem)
-* [Our Concept & Prototype](#conceptPrototype)
-* [What are the main benefits of the Jazzcode concept?](#mainBenefits)
-* [Why was Jazzcode made?](#why)
+* [The%20improvement%20opportunity](#theProblem)
+* [Our%20Concept%20&%20Prototype](#conceptPrototype)
+* [What%20are%20the%20main%20benefits%20of%20the%20Jazzcode%20concept?](#mainBenefits)
+* [Why%20was%20Jazzcode%20made?](#why)
 * [Installation](#installation)
-* [Using the application](#howTo)
+* [Using%20the%20application](#howTo)
 
 
 Jazzcode is a runnable prototype for Android smartphones exploring an authentication method for musicians which help them practice useful music skills while unlocking their apps.
