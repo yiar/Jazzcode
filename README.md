@@ -5,10 +5,10 @@ Sections
 - [Watch video](#watch-video)
 - [The improvement opportunity](#the-improvement-opportunity)
 - [Our Concept and Prototype](#our-concept-and-prototype)
-* [Main Benefits](#main-benefits)
-* [Why was Jazzcode made?](#why-was-jazzcode-made)
-* [Installation](#installation)
-* [Using the application](#how-to-use-the-prototype)
+   * [Main Benefits](#main-benefits)
+   * [Why was Jazzcode made?](#why-was-jazzcode-made)
+- [Installation](#installation)
+- [Using the application](#how-to-use-the-prototype)
 
 
 Jazzcode is a runnable prototype for Android smartphones exploring an authentication method for musicians which help them practice useful music skills while unlocking their apps.
