@@ -2,11 +2,11 @@
 ![jazzCodeLogo](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/JazzCodeLogo.jpeg?raw=true)
 
 Sections
-- [Watch video (30 sec)](#watch-video-(30 sec))
+- [Watch video - 30 sec](#watch-video-30 sec))
 - [The improvement opportunity](#the-improvement-opportunity)
 - [Our Concept & Prototype](#our-concept-&-prototype)
-* [Main Benefits](#main-benefits)
-* [Why was Jazzcode made?](#why-was-jazzcode-made)
+ * [Main Benefits](#main-benefits)
+ * [Why was Jazzcode made?](#why-was-jazzcode-made)
 * [Installation](#installation)
 * [Using the application](#how-to-use-the-prototype)
 
