@@ -2,12 +2,13 @@
 ![jazzCodeLogo](https://github.com/yiar/Jazzcode/blob/master/WebsiteAssets/JazzCodeLogo.jpeg?raw=true)
 
 Sections
-* [The%20improvement%20opportunity](#theProblem)
-* [Our%20Concept%20&%20Prototype](#conceptPrototype)
-* [What%20are%20the%20main%20benefits%20of%20the%20Jazzcode%20concept?](#mainBenefits)
-* [Why%20was%20Jazzcode%20made?](#why)
+- [Watch video (30 sec)](#watch-video-(30 sec))
+- [The improvement opportunity](#the-improvement-opportunity)
+- [Our Concept & Prototype](#our-concept-&-prototype)
+* [Main Benefits](#main-benefits)
+* [Why was Jazzcode made?](#why-was-jazzcode-made)
 * [Installation](#installation)
-* [Using%20the%20application](#howTo)
+* [Using the application](#how-to-use-the-prototype)
 
 
 Jazzcode is a runnable prototype for Android smartphones exploring an authentication method for musicians which help them practice useful music skills while unlocking their apps.
@@ -48,7 +49,7 @@ We spent a lot of time creating a squarespace [website](https://kazoo-oleander-d
 
  <br/><br/>
 
-## What are the main benefits of the Jazzcode concept?
+## Main benefits
 - Effective learning by spaced repetition practice for musicians, which is easy to add to your already existing routine
 - More easily recall new passcodes in melodies, which allows for changing password more often to make you more secure
 - Personalization. Chose a melody you love to use as passcode.
@@ -93,7 +94,7 @@ The course also had a big focus in generating different ideas, iterating, not ju
 - Build and run
 
 
-# Using the application
+# How to use the prototype
 When the app has been built and runs, the first time you should set a password that is 4-15 characters long.
 When you successfully set a password you will be sent to the previous activity. 
 Press log in and enter your new password.
