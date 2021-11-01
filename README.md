@@ -4,7 +4,7 @@
 Sections
 - [Watch video](#watch-video)
 - [The improvement opportunity](#the-improvement-opportunity)
-- [Our Concept & Prototype](#our-concept-&-prototype)
+- [Our Concept and Prototype](#our-concept-and-prototype)
  * [Main Benefits](#main-benefits)
  * [Why was Jazzcode made?](#why-was-jazzcode-made)
 * [Installation](#installation)
@@ -26,7 +26,7 @@ Jazzcode is a runnable prototype for Android smartphones exploring an authentica
 
  <br/><br/>
 
-# Our Concept & Prototype
+# Our Concept and Prototype
 
 
 
