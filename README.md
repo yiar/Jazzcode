@@ -5,8 +5,8 @@ Sections
 - [Watch video](#watch-video)
 - [The improvement opportunity](#the-improvement-opportunity)
 - [Our Concept and Prototype](#our-concept-and-prototype)
-   * [Main Benefits](#main-benefits)
-   * [Why was Jazzcode made?](#why-was-jazzcode-made)
+  * [Main Benefits](#main-benefits)
+  * [Why was Jazzcode made?](#why-was-jazzcode-made)
 - [Installation](#installation)
 - [Using the application](#how-to-use-the-prototype)
 
